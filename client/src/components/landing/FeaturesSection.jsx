@@ -82,21 +82,24 @@ export default function FeaturesSection({ onOpenAuth }) {
               key={idx}
               style={{
                 background: '#ffffff',
-                border: '1px solid #e2e8f0',
-                borderRadius: '12px',
+                border: '1.5px solid #cbd5e1',
+                borderRadius: '14px',
                 padding: '1.75rem',
                 display: 'flex',
                 flexDirection: 'column',
                 justifyContent: 'space-between',
-                transition: 'all 0.2s ease'
+                boxShadow: '0 4px 14px -2px rgba(15, 23, 42, 0.06)',
+                transition: 'all 0.2s cubic-bezier(0.16, 1, 0.3, 1)'
               }}
               onMouseEnter={(e) => {
-                e.currentTarget.style.borderColor = '#cbd5e1';
-                e.currentTarget.style.boxShadow = '0 4px 12px rgba(15, 23, 42, 0.05)';
+                e.currentTarget.style.borderColor = '#0d9488';
+                e.currentTarget.style.boxShadow = '0 10px 25px -4px rgba(13, 148, 136, 0.18)';
+                e.currentTarget.style.transform = 'translateY(-2px)';
               }}
               onMouseLeave={(e) => {
-                e.currentTarget.style.borderColor = '#e2e8f0';
-                e.currentTarget.style.boxShadow = 'none';
+                e.currentTarget.style.borderColor = '#cbd5e1';
+                e.currentTarget.style.boxShadow = '0 4px 14px -2px rgba(15, 23, 42, 0.06)';
+                e.currentTarget.style.transform = 'translateY(0)';
               }}
             >
               <div>

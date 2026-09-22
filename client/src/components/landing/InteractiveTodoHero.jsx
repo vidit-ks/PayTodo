@@ -21,9 +21,9 @@ export default function InteractiveTodoHero() {
       {/* Main Todo Dashboard Mockup */}
       <div style={{
         background: '#ffffff',
-        border: '1px solid #e2e8f0',
+        border: '1.5px solid #cbd5e1',
         borderRadius: '16px',
-        boxShadow: '0 20px 40px -15px rgba(15, 23, 42, 0.12), 0 0 0 1px rgba(15, 23, 42, 0.04)',
+        boxShadow: '0 20px 45px -10px rgba(15, 23, 42, 0.18), 0 0 0 1px rgba(15, 23, 42, 0.05)',
         overflow: 'hidden',
         position: 'relative',
         zIndex: 2
@@ -34,8 +34,8 @@ export default function InteractiveTodoHero() {
           alignItems: 'center',
           justifyContent: 'space-between',
           padding: '0.85rem 1.25rem',
-          borderBottom: '1px solid #f1f5f9',
-          background: '#fafafa'
+          borderBottom: '1px solid #e2e8f0',
+          background: '#f8fafc'
         }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
             <div style={{ width: '10px', height: '10px', borderRadius: '50%', background: '#cbd5e1' }}></div>

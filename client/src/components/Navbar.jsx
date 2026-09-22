@@ -95,9 +95,9 @@ export default function Navbar({ currentTab, setCurrentTab }) {
         gap: '1rem',
         padding: '0.75rem 1.25rem',
         background: '#ffffff',
-        border: '1px solid #e2e8f0',
-        borderRadius: '12px',
-        boxShadow: '0 1px 3px rgba(0, 0, 0, 0.04)'
+        border: '1.5px solid #cbd5e1',
+        borderRadius: '14px',
+        boxShadow: '0 4px 16px -2px rgba(15, 23, 42, 0.08)'
       }}>
         {/* Brand */}
         <div 

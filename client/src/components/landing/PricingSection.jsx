@@ -86,15 +86,17 @@ export default function PricingSection({ onOpenAuth }) {
             key={p.name}
             style={{
               background: '#ffffff',
-              border: p.featured ? '2px solid #0d9488' : '1px solid #e2e8f0',
-              borderRadius: '12px',
+              border: p.featured ? '2.5px solid #0d9488' : '1.5px solid #cbd5e1',
+              borderRadius: '14px',
               padding: '1.75rem 1.25rem',
               display: 'flex',
               flexDirection: 'column',
               justifyContent: 'space-between',
               position: 'relative',
-              boxShadow: p.featured ? '0 12px 30px -5px rgba(13, 148, 136, 0.2)' : 'none',
-              transform: p.featured ? 'scale(1.02)' : 'none',
+              boxShadow: p.featured 
+                ? '0 16px 36px -4px rgba(13, 148, 136, 0.22), 0 4px 12px rgba(15, 23, 42, 0.08)' 
+                : '0 4px 14px -2px rgba(15, 23, 42, 0.08)',
+              transform: p.featured ? 'scale(1.03)' : 'none',
               zIndex: p.featured ? 2 : 1
             }}
           >

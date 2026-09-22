@@ -50,11 +50,12 @@ export default function HowItWorks() {
               key={step.num}
               style={{
                 background: '#ffffff',
-                border: '1px solid #e2e8f0',
-                borderRadius: '12px',
+                border: '1.5px solid #cbd5e1',
+                borderRadius: '14px',
                 padding: '2rem 1.5rem',
                 position: 'relative',
-                transition: 'border-color 0.2s ease, box-shadow 0.2s ease'
+                boxShadow: '0 4px 14px -2px rgba(15, 23, 42, 0.07)',
+                transition: 'all 0.2s ease'
               }}
             >
               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1.25rem' }}>

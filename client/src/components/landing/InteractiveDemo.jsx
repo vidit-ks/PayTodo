@@ -50,10 +50,10 @@ export default function InteractiveDemo({ onOpenAuth }) {
 
       <div style={{
         background: '#ffffff',
-        border: '1px solid #e2e8f0',
+        border: '1.5px solid #cbd5e1',
         borderRadius: '16px',
         padding: '2rem',
-        boxShadow: '0 10px 30px -5px rgba(15, 23, 42, 0.06)'
+        boxShadow: '0 16px 40px -10px rgba(15, 23, 42, 0.12)'
       }}>
         {/* Progress Bar Header */}
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '0.75rem' }}>

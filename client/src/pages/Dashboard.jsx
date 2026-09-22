@@ -382,12 +382,13 @@ export default function Dashboard({ onNavigateToPlans }) {
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'space-between',
-                padding: '0.9rem 1.1rem',
+                padding: '0.95rem 1.2rem',
                 background: task.completed ? '#f8fafc' : '#ffffff',
-                border: '1px solid #e2e8f0',
-                borderRadius: '8px',
+                border: task.completed ? '1px solid #e2e8f0' : '1.5px solid #cbd5e1',
+                borderRadius: '10px',
                 opacity: task.completed ? 0.75 : 1,
-                boxShadow: '0 1px 2px rgba(0, 0, 0, 0.02)'
+                boxShadow: task.completed ? 'none' : '0 2px 6px rgba(15, 23, 42, 0.05)',
+                transition: 'all 0.15s ease'
               }}
             >
               {/* Checkbox and Content */}

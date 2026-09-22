@@ -15,14 +15,15 @@ export default function StatsSection() {
       margin: '0 auto'
     }}>
       <div style={{
-        background: '#f8fafc',
-        border: '1px solid #e2e8f0',
+        background: '#ffffff',
+        border: '1.5px solid #cbd5e1',
         borderRadius: '16px',
         padding: '2.5rem 1.5rem',
         display: 'grid',
         gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))',
         gap: '2rem',
-        textAlign: 'center'
+        textAlign: 'center',
+        boxShadow: '0 4px 16px -2px rgba(15, 23, 42, 0.08)'
       }}>
         {stats.map((s, i) => (
           <div key={i}>

@@ -107,10 +107,13 @@ export default function PlansPage() {
                 justifyContent: 'space-between',
                 background: '#ffffff',
                 border: isCurrent 
-                  ? '2px solid #10b981' 
+                  ? '2.5px solid #10b981' 
                   : isFeatured 
-                  ? '2px solid var(--primary-500)' 
-                  : '1px solid var(--border-subtle)'
+                  ? '2.5px solid var(--primary-500)' 
+                  : '1.5px solid var(--border-subtle)',
+                boxShadow: isFeatured || isCurrent
+                  ? '0 12px 30px -4px rgba(13, 148, 136, 0.18), 0 4px 10px rgba(15, 23, 42, 0.06)'
+                  : '0 4px 14px -2px rgba(15, 23, 42, 0.08)'
               }}
             >
               <div>
